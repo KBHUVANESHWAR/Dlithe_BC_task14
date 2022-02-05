@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>SEMINAR</title>
+</head>
+<style>
+body{
+    background-image:url("3.jpg.png") ;
+}
+nav {
+            
+width: 100%;
+height: 60px;
+align-items: center;
+	
+}
+ nav ul {
+     
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    position: relative;
+
+}
+nav ul li {
+     display: inline-block;
+    background-color: black;
+        }
+nav a {
+            padding: 0px 10px;
+            display: block;
+            color: mintcream;
+            font-size: 15px;
+            line-height: 60px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: rgba(250, 120, 286, 270);
+            color: blue;
+        }
+        /* first level dropdown */
+        nav ul ul li {
+            width: 170px;
+            float: none;
+            display: list-item;
+            position: relative;
+
+        }
+        nav ul ul ul li {
+            width: 250px;
+            top: -60px;
+            left: 170px;
+            position: relative;
+
+
+        }
+        nav ul ul ul ul li {
+            width: 200px;
+            position: relative;
+            top: -60px;
+            left: 170px;
+        }
+        li > a:after {content: '+';}
+        li > a:only-child:after { content: '';}
+        nav ul ul {
+            display: none;
+            position: absolute;
+            top: 60px;
+        }
+        nav ul li:hover > ul {
+            display: inherit;
+        }
+        div {
+            background-color: rgba(98, 0, 255, 0);
+            padding: 0;
+        }
+        div{
+            border: 10px solid rgb(20, 20, 20);
+            padding: 1px;
+        }
+        
+
+    </style>
+    <body background="3.jpg.png">
+        <div>
+        <h1 style="text-align: center;"> TIETOEVERY DLIITH  TEST</h1>
+              </div>
+              <br><br><br>
+
+            
+        <nav >
+            <ul>
+                <li><a href="#">IMAGE CAROUSEL</a>
+                <ul>
+                    <li><a href="#">INTRODUCTION</a></li>
+                    </ul>
+                    </li>
+                   
+                   
+                    <li><a href="#"> NAV BAR WITH LOGIN PAGE</a>
+                        <ul>
+                            <li><a href="#">NAV BAR USE</a>
+                                <ul>  <li><a href="#">NAV BAR USE</a></li> 
+
+                                    
+                                    
+                            </ul>
+
+                                
+                            </li>
+
+                            <li><a href="#"> TABLES</a>
+                                <ul>  <li><a href="#">1) TABLES COPMPLETION</a></li> 
+                                    
+                            </ul>
+                            
+                                
+                            </li>
+
+                                <li><a href="#"> TRANSITION</a>
+                                    <ul>  <li><a href="#">1) TRANSFORMATION ANIMATION</a></li> 
+
+                                        
+                                        
+                                </ul>
+
+
+                
+        </nav>
+
+    </body>
+</html>
